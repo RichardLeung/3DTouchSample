@@ -10,6 +10,10 @@ Shortcut和Preview效果如下图：
 <img src="./3DTouchSample/image/demo1.gif"/>
 <img src="./3DTouchSample/image/demo2.gif"/>
 
+实际项目效果见下图
+<img src="./3DTouchSample/image/shortcut.jpg"/>
+<img src="./3DTouchSample/image/preview.jpg"/>
+
 
 
 
