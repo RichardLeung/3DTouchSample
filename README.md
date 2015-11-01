@@ -3,11 +3,8 @@
 ###实现
 3D-Touch的功能分为两个部分：Shortcut和Preview。
 
-Shortcut如下图：
+Shortcut和Preview效果如下图：
 
 <img src="./3DTouchSample/image/shortcut.jpg"/>
-
-Preview如下图：
-
 <img src="./3DTouchSample/image/preview.jpg"/>
 
