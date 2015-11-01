@@ -85,7 +85,7 @@
 
 - (void)previewingContext:(id <UIViewControllerPreviewing>)previewingContext commitViewController:(UIViewController *)viewControllerToCommit
 {
-    [self presentViewController:viewControllerToCommit animated:YES completion:nil];
+    [self.navigationController pushViewController:viewControllerToCommit animated:NO];
 }
 
 #pragma mark -UITableViewDataSource

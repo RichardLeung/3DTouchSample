@@ -27,7 +27,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     self.view.backgroundColor =[UIColor whiteColor];
     UIImage *image =[UIImage imageNamed:self.title];
     _imageViewShow =[[UIImageView alloc]initWithImage:image];
