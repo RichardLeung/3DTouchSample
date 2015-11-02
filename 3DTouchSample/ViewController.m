@@ -76,10 +76,8 @@
         return nil;
     }
     DetailViewController *detailVC =[[DetailViewController alloc]initWithTitle:[_arrayData objectAtIndex:indexPath.row]];
-    NSLog(@"%@",[_arrayData objectAtIndex:indexPath.row]);
     detailVC.preferredContentSize = CGSizeMake(0, 0);
     previewingContext.sourceRect = cell.frame;
-    previewingContext.sourceRect = CGRectMake(0, 0, previewingContext.sourceView.frame.size.width, previewingContext.sourceView.frame.size.height);
     return detailVC;
 }
 
